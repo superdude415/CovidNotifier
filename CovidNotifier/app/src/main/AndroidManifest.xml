@@ -9,9 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CovidNotifier" >
+
         <activity android:name=".AddRecordActivity"
                   android:parentActivityName=".MainActivity">
         </activity>
+
+        <activity android:name=".ViewCurrentListActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity android:name=".ViewPastListsActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
         <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

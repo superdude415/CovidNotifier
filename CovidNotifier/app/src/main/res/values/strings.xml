@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Covid Notifier</string>
+    <string-array name="guests">
+        <item>guest1</item>
+    </string-array>
+
+    <string-array name="form_of_contact">
+        <item>guest1info</item>
+    </string-array>
 </resources>
